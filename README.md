@@ -9,6 +9,6 @@ Desenvolvimento completo de um sistema (Modelagem + Programação + Banco de Dad
 ## Autores
 - [@Byanca da Silva Monteiro de Matos](https://www.github.com/ByancaMatos01)
 - [@Ewelin Cristina Fernandes ](https://github.com/ewefernandes)
-- [@Mariane Conceição ]()
+- [@Mariane Conceição ](https://github.com/MarianeCSilva)
 - [@Laís Aparecida ](https://github.com/lais-coding)
-- [@Thaís ]()
+- [@Thaís Lotti ]()
