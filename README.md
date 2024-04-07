@@ -12,3 +12,10 @@ Desenvolvimento completo de um sistema (Modelagem + Programação + Banco de Dad
 - [@Mariane Conceição ](https://github.com/MarianeCSilva)
 - [@Laís Aparecida ](https://github.com/lais-coding)
 - [@Thaís Lotti ]()
+# Functions
+- Mary Ful stack (Lider)
+-Bya Full stack (co-Lider)
+-Thais backend/ analista
+-Ewe Front end/ engenheira de requistos
+-Lais engenheira de requistos/ backend
+
