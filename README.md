@@ -10,5 +10,5 @@ Desenvolvimento completo de um sistema (Modelagem + Programação + Banco de Dad
 - [@Byanca da Silva Monteiro de Matos](https://www.github.com/ByancaMatos01)
 - [@Ewelin Cristina]()
 - [@Mariane Conceição ]()
-- [@Laís Aparecida ]()
+- [@Laís Aparecida ](https://github.com/lais-coding)
 - [@Thaís ]()
