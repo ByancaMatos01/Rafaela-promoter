@@ -8,7 +8,7 @@ Desenvolvimento completo de um sistema (Modelagem + Programação + Banco de Dad
 * Iniciamos com Spring Boot
 ## Autores
 - [@Byanca da Silva Monteiro de Matos](https://www.github.com/ByancaMatos01)
-- [@Ewelin Cristina]()
+- [@Ewelin Cristina Fernandes ](https://github.com/ewefernandes)
 - [@Mariane Conceição ]()
 - [@Laís Aparecida ](https://github.com/lais-coding)
 - [@Thaís ]()
