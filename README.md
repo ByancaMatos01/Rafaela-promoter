@@ -6,6 +6,8 @@ Trabalho desenvolvido em Lab de Engenharia
 Desenvolvimento completo de um sistema (Modelagem + Programação + Banco de Dados) de um tema específico.
 # dia 1- Demonstração 06/04/2024
 * Iniciamos com Spring Boot
+  # dia 2- Nav bar feito 08/04/2022
+  * criação do nav bar utilizando html e css puro
 ## Autores
 - [@Byanca da Silva Monteiro de Matos](https://www.github.com/ByancaMatos01)
 - [@Ewelin Cristina Fernandes ](https://github.com/ewefernandes)
