@@ -1,0 +1,38 @@
+@media screen and (max-width: 768px) {
+    /* Alterações para telas menores, como tablets */
+    nav .wrapper {
+        padding: 0 15px;
+    }
+
+    .wrapper .logo a {
+        font-size: 24px;
+    }
+
+    .navlink li a {
+        font-size: 16px;
+    }
+
+    .navlink .drop-menu {
+        width: 150px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    /* Alterações para telas menores, como smartphones */
+    nav .wrapper {
+        padding: 0 10px;
+    }
+
+    .wrapper .logo a {
+        font-size: 20px;
+    }
+
+    .navlink li a {
+        font-size: 14px;
+        padding: 8px 12px;
+    }
+
+    .navlink .drop-menu {
+        width: 130px;
+    }
+}
