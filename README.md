@@ -8,6 +8,8 @@ Desenvolvimento completo de um sistema (Modelagem + Programação + Banco de Dad
 * Iniciamos com Spring Boot
 # dia 2- Nav bar feito 08/04/2022
 * criação do nav bar utilizando html e css puro
+# dia 3- Craiação do carrosel com os temas  09/04/2024
+* feito em html, CSS e Javascript
 ## Autores
 - [@Byanca da Silva Monteiro de Matos](https://www.github.com/ByancaMatos01)
 - [@Ewelin Cristina Fernandes ](https://github.com/ewefernandes)
