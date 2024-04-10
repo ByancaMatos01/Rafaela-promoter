@@ -32,11 +32,11 @@ body{
     --item5-opacity: 0;
 }
 header{
-    width: 1240px;
+    width: 77,5rem;
     max-width: 90%;
     display: flex;
     justify-content: space-between;
-    height: 50px;
+    height: 3rem;
     align-items: center;
 }
 nav{
@@ -44,7 +44,7 @@ nav{
     position: fixed;
     width:100%;
     z-index: 999;
-    height: 85px;
+    height: 5rem;
     line-height: 75px;
 }
 nav .wrapper {
@@ -78,26 +78,28 @@ nav .wrapper {
 }
 .navlink li a:hover{
     background: rgba(59, 201, 236, 0.37);
-    width: 87%;
+    width: auto;
+    line-height:65px;
+    padding-left: 5px;
 
 }
 
 .navlink .drop-menu {
     background: rgba(0, 183, 255, 0.363);
-    width: 12%;
-    line-height:45px;
+    width: auto;
+    line-height:65px;
     position: absolute;
     top: 100%; /* Alterado de top: 85px para top: 100% */
     opacity: 0;
-    padding-left: 10px;
+    padding-left: 5px;
     visibility: hidden;
 }
 
 .navlink li:hover .drop-menu{
-    top:86px;
+    top:100%;
     opacity: 1;
     visibility: visible;
-    transition: all 0.3s ease;
+    transition: all 0.5s ease;
 }
 .drop-menu li a{
     width: 90%;
@@ -216,6 +218,7 @@ nav .wrapper {
 .carousel .list .item:nth-child(2) .introduce .seeMore{
     opacity: 0;
     animation: showContent 0.5s 1s ease-in-out 1 forwards;
+    cursor: pointer;
 }
 @keyframes showContent{
     from{
@@ -356,10 +359,12 @@ nav .wrapper {
     padding: 5px 10px;
     letter-spacing: 2px;
     font-weight: 500;
+    cursor: pointer;
 }
 .carousel.carousel.showDetail .list .item:nth-child(2) .checkout button:nth-child(2){
     background-color: #693EFF;
     color: #eee;
+    
 }
 .carousel.showDetail .list .item:nth-child(2) .detail  .title,
 .carousel.showDetail .list .item:nth-child(2) .detail  .des,
@@ -386,6 +391,7 @@ nav .wrapper {
     justify-content: space-between;
     left: 50%;
     transform: translateX(-50%);
+    
 }
 #prev,
 #next{
@@ -397,10 +403,12 @@ nav .wrapper {
     font-size: large;
     bottom: 20%;
     left: 10%;
+    cursor: pointer;
 }
 #next{
     left: unset;
     right: 10%;
+    cursor: pointer;
 }
 #back{
     position: absolute;
@@ -417,6 +425,7 @@ nav .wrapper {
     padding: 10px;
     /* opacity: 0; */
     transition: opacity 0.5s;
+    cursor: pointer;
 }
 .carousel.showDetail #back{
     opacity: 1;
@@ -491,3 +500,163 @@ nav .wrapper {
         float: right;
     }
 }
+
+@media screen and (max-width: 991px){
+    .carousel .list .item{
+        width: 90%;
+    }
+    .carousel.showDetail .list .item:nth-child(2) .detail .specifications{
+        overflow: auto;
+    }
+    .carousel.showDetail .list .item:nth-child(2) .detail .title{
+        font-size: 2em;
+    }
+}
+
+/* Responsividade para dispositivos móveis */
+@media screen and (max-width: 767px){
+    .carousel{
+        height: 600px;
+    }
+    .carousel .list .item{
+        width: 100%;
+        font-size: 10px;
+    }
+    
+    .carousel .list{
+        height: 100%;
+    }
+    .carousel .list .item:nth-child(2) .introduce{
+        width: 50%;
+    }
+    
+    .carousel .list .item img{
+        width: 40%;
+    }
+    .carousel.showDetail .list .item:nth-child(2) .detail{
+        backdrop-filter: blur(10px);
+        font-size: small;
+    }
+    .carousel .list .item:nth-child(2) .introduce .des,
+    .carousel.showDetail .list .item:nth-child(2) .detail .des{
+        height: 100px;
+        overflow: auto;
+    }
+    .carousel.showDetail .list .item:nth-child(2) .detail .checkout{
+        display: flex;
+        width: max-content;
+        float: right;
+    }
+}
+/* Responsividade para dispositivos com tela muito pequena */
+@media screen and (max-width: 480px){
+    .carousel{
+        height: 400px; /* Ajuste a altura conforme necessário */
+    }
+    .carousel .list .item{
+        width: 100%;
+        font-size: 8px; /* Reduza ainda mais o tamanho da fonte */
+    }
+    
+    .carousel .list{
+        height: 100%;
+    }
+    .carousel .list .item:nth-child(2) .introduce{
+        width: 60%; /* Ajuste a largura conforme necessário */
+    }
+    
+    .carousel .list .item img{
+        width: 30%; /* Reduza o tamanho da imagem */
+    }
+    .carousel.showDetail .list .item:nth-child(2) .detail{
+        backdrop-filter: blur(10px);
+        font-size: x-small; /* Reduza ainda mais o tamanho da fonte */
+    }
+    .carousel .list .item:nth-child(2) .introduce .des,
+    .carousel.showDetail .list .item:nth-child(2) .detail .des{
+        height: 80px; /* Ajuste a altura conforme necessário */
+        overflow: auto;
+    }
+    .carousel.showDetail .list .item:nth-child(2) .detail .checkout{
+        display: flex;
+        width: max-content;
+        float: right;
+    }
+}
+
+/* Se necessário, você pode adicionar mais regras de mídia para tamanhos de tela ainda menores */
+
+/* Responsividade para smartphones em orientação retrato e telas pequenas */
+@media screen and (max-width: 360px){
+    .carousel{
+        height: 300px; /* Ajuste a altura conforme necessário */
+    }
+    .carousel .list .item{
+        width: 100%;
+        font-size: 8px; /* Reduza ainda mais o tamanho da fonte */
+    }
+    
+    .carousel .list{
+        height: 100%;
+    }
+    .carousel .list .item:nth-child(2) .introduce{
+        width: 70%; /* Ajuste a largura conforme necessário */
+    }
+    
+    .carousel .list .item img{
+        width: 30%; /* Reduza o tamanho da imagem */
+    }
+    .carousel.showDetail .list .item:nth-child(2) .detail{
+        backdrop-filter: blur(10px);
+        font-size: x-small; /* Reduza ainda mais o tamanho da fonte */
+    }
+    .carousel .list .item:nth-child(2) .introduce .des,
+    .carousel.showDetail .list .item:nth-child(2) .detail .des{
+        height: 60px; /* Ajuste a altura conforme necessário */
+        overflow: auto;
+    }
+    .carousel.showDetail .list .item:nth-child(2) .detail .checkout{
+        display: flex;
+        width: max-content;
+        float: right;
+    }
+}
+/* Responsividade para telas extremamente pequenas, como smartphones em orientação retrato */
+@media screen and (max-width: 220px){
+    .carousel{
+        height: 200px; /* Ajuste a altura conforme necessário */
+    }
+    .carousel .list .item{
+        width: 100%;
+        font-size: 6px; /* Reduza ainda mais o tamanho da fonte */
+    }
+    
+    .carousel .list{
+        height: 100%;
+    }
+    .carousel .list .item:nth-child(2) .introduce{
+        width: 80%; /* Ajuste a largura conforme necessário */
+    }
+    
+    .carousel .list .item img{
+        width: 30%; /* Reduza o tamanho da imagem */
+    }
+    .carousel.showDetail .list .item:nth-child(2) .detail{
+        backdrop-filter: blur(10px);
+        font-size: xx-small; /* Reduza ainda mais o tamanho da fonte */
+    }
+    .carousel .list .item:nth-child(2) .introduce .des,
+    .carousel.showDetail .list .item:nth-child(2) .detail .des{
+        height: 40px; /* Ajuste a altura conforme necessário */
+        overflow: auto;
+    }
+    .carousel.showDetail .list .item:nth-child(2) .detail .checkout{
+        display: flex;
+        width: max-content;
+        float: right;
+    }
+}
+
+/* Se necessário, você pode adicionar mais regras de mídia para tamanhos de tela ainda menores */
+
+/* Se necessário, você pode adicionar mais regras de mídia para tamanhos de tela ainda menores */
