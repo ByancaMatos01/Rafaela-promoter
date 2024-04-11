@@ -10,6 +10,10 @@ Desenvolvimento completo de um sistema (Modelagem + Programação + Banco de Dad
 * criação do nav bar utilizando html e css puro
 # dia 3- Craiação do carrosel com os temas  09/04/2024
 * feito em html, CSS e Javascript
+# dia 4- Tela Inicial 10/04/2024
+ * feito pequeno carrousel sobre exemplos de temas
+ * sobre (apresenta erros)
+ * contatos (apresenta erros)
 ## Autores
 - [@Byanca da Silva Monteiro de Matos](https://www.github.com/ByancaMatos01)
 - [@Ewelin Cristina Fernandes ](https://github.com/ewefernandes)
