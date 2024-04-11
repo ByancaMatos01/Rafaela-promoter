@@ -223,12 +223,6 @@ nav ul li.active a{
     display: block;
 }
 
-container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 20px;
-  }
-  
   /* Section Service */
   .section.service {
     background-color: #f8f8f8;
@@ -364,4 +358,28 @@ container {
   justify-content: center;
   text-decoration: none;
   text-align: justify;
+}
+
+.h2section-title {
+  text-align: center;
+  font-weight: bold;
+  font-size: 25px;
+  color:  #ff9aa2;
+  margin-top: 25px;
+  
+}
+.section-subtitle{
+  text-align: center;
+  font-weight: bold;
+  font-size: 35px;
+  color:  #37a4e2;
+  margin-top: 25px;
+
+}
+
+
+.sectionservice, .container {
+  background-color: rgba(65, 168, 236, 0.116);
+  border-radius: 10px;
+  width: 100%;
 }
