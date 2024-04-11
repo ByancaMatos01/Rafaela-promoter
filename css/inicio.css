@@ -249,12 +249,6 @@ container {
     margin-bottom: 40px;
   }
   
-  .grid-list {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-  
   .service-card {
     background-color: #fff;
     border-radius: 10px;
@@ -310,6 +304,10 @@ container {
     text-align: center;
   }
   
+  .about-content ul li a{
+    text-decoration: none;
+    
+  }
   .about-item {
     margin-bottom: 40px;
   }
@@ -330,40 +328,6 @@ container {
   
   .accordion-btn:hover {
     background-color: #ff9aa2;
-  }
-  
-  /* Footer */
-  .footer {
-    background-color: #333;
-    color: #fff;
-    padding: 50px 0;
-  }
-  
-  .footer-brand {
-    margin-bottom: 40px;
-  }
-  
-  .social-link {
-    color: #fff;
-    font-size: 24px;
-    margin-right: 20px;
-  }
-  
-  .footer-text {
-    color: #fff;
-    font-size: 16px;
-    margin-bottom: 20px;
-  }
-  
-  .footer-list {
-    margin-bottom: 40px;
-  }
-  
-  .footer-list-title {
-    color: #ffb6c1;
-    font-size: 24px;
-    font-weight: bold;
-    margin-bottom: 20px;
   }
   
   .input-wrapper {
@@ -393,4 +357,11 @@ container {
   }
 .section.service{
   text-decoration: none;
+}
+.grid-list ul  li a{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-decoration: none;
+  text-align: justify;
 }
