@@ -15,10 +15,10 @@ Desenvolvimento completo de um sistema (Modelagem + Programação + Banco de Dad
  * sobre (apresenta erros)
  * contatos (apresenta erros
  * O projeto foi dividido em várias
-   # Tela de login e cadastro  dia 11/04/2024
+# dia 5- Tela de login e cadastro  dia 11/04/2024
  * login ( apresentou erros)
  * Arrumar as labels do login.
-   # Arrumando tela de Serviços 12/04/2024
+#  dia 6- Arrumando tela de Serviços 12/04/2024
    * cores e funsos
    * tentar colocar uma borda maior nos serviços.
    
