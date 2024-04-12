@@ -3,7 +3,7 @@
 body{
     margin: 0;
     background-color: #F4F4F4;
-    font-family: Poppins;
+    font-family: 'Poppins', sans-serif;
 }
 :root{
     --item1-transform: translateX(-100%) translateY(-5%) scale(1.5);
@@ -426,6 +426,7 @@ nav .wrapper {
     /* opacity: 0; */
     transition: opacity 0.5s;
     cursor: pointer;
+    text-decoration: none;
 }
 .carousel.showDetail #back{
     opacity: 1;
