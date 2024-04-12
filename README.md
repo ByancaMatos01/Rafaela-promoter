@@ -13,10 +13,15 @@ Desenvolvimento completo de um sistema (Modelagem + Programação + Banco de Dad
 # dia 4- Tela Inicial 10/04/2024
  * feito pequeno carrousel sobre exemplos de temas
  * sobre (apresenta erros)
- * contatos (apresenta erros)
+ * contatos (apresenta erros
+ * O projeto foi dividido em várias
+   # Tela de login e cadastro  dia 11/04/2024
  * login ( apresentou erros)
  * Arrumar as labels do login.
- * O projeto foi dividido em várias
+   # Arrumando tela de Serviços 12/04/2024
+   * cores e funsos
+   * tentar colocar uma borda maior nos serviços.
+   
 ## Autores
 - [@Byanca da Silva Monteiro de Matos](https://www.github.com/ByancaMatos01)
 - [@Ewelin Cristina Fernandes ](https://github.com/ewefernandes)
