@@ -29,7 +29,7 @@ body * {
     .left-login > h1,
     .left-cadastro > h1 {
         font-size: 3vw;
-        color: darkblue;
+        color: rgba(143, 46, 255, 0);
     }
 
 .left-login-image{
@@ -38,7 +38,7 @@ body * {
 
 .cadastro{
     text-decoration: none;
-    color: rebeccapurple;
+    color: rgba(123, 0, 247, 0.137);
 }
 
 .right-login{
@@ -56,14 +56,14 @@ body * {
     align-items: center;
     flex-direction: column;
     padding: 30px 35px;
-    background: #2f2841;
+    background: #4901fd27;
     border-radius: 20px;
-    box-shadow: 0px 10px 40px #00000056;
+    box-shadow: 0px 10px 40px #03e8f813;
 }
 
     .card-login > h1,
     .card-cadastro > h1 {
-        color: #00ffff;
+        color: #0099ff69;
         opacity: inherit;
         font-weight: 800;
         margin: 0;
@@ -83,10 +83,10 @@ body * {
     border: none;
     border-radius: 10px;
     padding: 15px;
-    background: #514869;
+    background: #b88df0;
     color: #f0ffffde;
     font-size: 12pt;
-    box-shadow: 0px 10px 40px #00000056;
+    box-shadow: 0px 10px 40px #32cfeb56;
     outline: none;
     box-sizing: border-box;
 }
@@ -110,10 +110,15 @@ body * {
     text-transform: uppercase;
     font-weight: 800;
     letter-spacing: 3px;
-    color: #2b134b;
-    background: #00ff88;
+    color: #ffffffb4;
+    background: #bf28ec56;
     cursor: pointer;
-    box-shadow: 0px 10px 40px -12px #00ff8052;
+    box-shadow: 0px 10px 40px -12px #9dd6ba52;
+}
+
+.btn-login:hover {
+    background: #827af3;
+    transition: 0.5s;
 }
 
 nav {position: absolute; right: 50px; justify-content: right; bottom: 0px;}
@@ -147,7 +152,7 @@ nav a {text-decoration: none; color : #90ee90;}
     align-items: center;
     flex-direction: column;
     padding: 30px 35px;
-    background: #2f2841;
+    background: rgba(0, 45, 247, 0.137);
     border-radius: 20px;
     box-shadow: 0px 10px 40px #00000056;
 }
@@ -166,7 +171,7 @@ nav a {text-decoration: none; color : #90ee90;}
     border: none;
     border-radius: 10px;
     padding: 15px;
-    background: #514869;
+    background: #46d7eb2f;
     color: #f0ffffde;
     font-size: 12pt;
     box-shadow: 0px 10px 40px #00000056;
@@ -184,10 +189,19 @@ nav a {text-decoration: none; color : #90ee90;}
     text-transform: uppercase;
     font-weight: 800;
     letter-spacing: 3px;
-    color: #2b134b;
-    background: #00ff88;
+    color: #ffffff;
+    background: #2765c279;
     cursor: pointer;
     box-shadow: 0px 10px 40px -12px #00ff8052;
+}
+.btn-cadastro:hover{
+    background-color: #2765c2;
+    transition: 0.5s;
+    cursor: pointer;
+
+}
+.cadastro{
+ color: white;
 }
 
 @media only screen and (max-width: 950px){
