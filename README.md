@@ -14,7 +14,8 @@ Desenvolvimento completo de um sistema (Modelagem + Programação + Banco de Dad
  * feito pequeno carrousel sobre exemplos de temas
  * sobre (apresenta erros)
  * contatos (apresenta erros)
- * login (não apresentou erros)
+ * login ( apresentou erros)
+ * Arrumar as labels do login.
  * O projeto foi dividido em várias
 ## Autores
 - [@Byanca da Silva Monteiro de Matos](https://www.github.com/ByancaMatos01)
