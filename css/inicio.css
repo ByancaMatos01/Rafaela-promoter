@@ -313,3 +313,64 @@ nav ul li.active a{
   border-radius: 10px;
   width: 100%;
 }
+
+.sectionservice {
+  background-color: #f8f8f8;
+  padding: 80px 0;
+}
+
+.section-subtitle {
+  color: #333;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.h2section-title {
+  color: rgb(143, 140, 140);
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+.service-card {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+  padding: 30px;
+  text-align: center;
+}
+
+.card-icon {
+  color: #ffb6c1;
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.card-title {
+  color: #333;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.card-text {
+  color: #666;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.btn-text {
+  background-color: #ffb6c1;
+  border-radius: 5px;
+  color: #fff;
+  display: inline-block;
+  padding: 10px 20px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.btn-text:hover {
+  background-color: #ff9aa2;
+}
