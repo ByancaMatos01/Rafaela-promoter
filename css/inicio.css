@@ -156,7 +156,7 @@ nav ul li.active a{
   transform: scale(1.2);
 }
 /* Section Service */
-.section.service {
+.sectionservice {
   background-color: #f8f8f8;
   text-decoration: none;
   list-style-type: none;
@@ -181,9 +181,9 @@ nav ul li.active a{
 .service-card {
   background-color: #fff;
   border-radius: 10px;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-  margin: 20px;
-  padding: 30px;
+  box-shadow: 0 0 1.25rem rgba(0, 0, 0, 0.1);
+  margin: 1.25rem;
+  padding: 1.875rem;
   text-align: center;
 }
 
