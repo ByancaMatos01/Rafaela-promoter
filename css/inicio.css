@@ -309,6 +309,7 @@ margin-top: 45%;
   color:  #37a4e2;
 }
 
+/* exclusão das imagens para mobile */
 @media screen and (max-width: 991px) {
   img#big-img{
     max-width: 0%;
@@ -317,6 +318,11 @@ margin-top: 45%;
   .small-img > img{
     max-width: 0%;
   }
+
+  .content > .div-text > h3 {
+    margin-top: 25%;
+  }
+
 
 }
 
