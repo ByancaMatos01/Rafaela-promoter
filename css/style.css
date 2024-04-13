@@ -109,6 +109,10 @@ nav .wrapper {
     border-radius: 3px;
 }
 
+#big-img{
+    
+}
+
 /* carousel */
 .carousel{
     position: relative;
@@ -501,6 +505,10 @@ nav .wrapper {
         width: max-content;
         float: right;
     }
+
+    .div-img > img{
+        width: 50vw;
+    }
 }
 
 @media screen and (max-width: 991px){
@@ -512,6 +520,10 @@ nav .wrapper {
     }
     .carousel.showDetail .list .item:nth-child(2) .detail .title{
         font-size: 2em;
+    }
+
+    .div-img > img{
+        width: 50vw;
     }
 }
 
@@ -549,6 +561,10 @@ nav .wrapper {
         width: max-content;
         float: right;
     }
+
+    .div-img > img{
+        width: 50vw;
+    }
 }
 /* Responsividade para dispositivos com tela muito pequena */
 @media screen and (max-width: 480px){
@@ -583,6 +599,10 @@ nav .wrapper {
         display: flex;
         width: max-content;
         float: right;
+    }
+
+    .div-img > img{
+        width: 50vw;
     }
 }
 
@@ -622,6 +642,10 @@ nav .wrapper {
         width: max-content;
         float: right;
     }
+
+    .div-img > img{
+        width: 50vw;
+    }
 }
 /* Responsividade para telas extremamente pequenas, como smartphones em orientação retrato */
 @media screen and (max-width: 220px){
@@ -656,6 +680,10 @@ nav .wrapper {
         display: flex;
         width: max-content;
         float: right;
+    }
+
+    .div-img > img{
+        width: 50vw;
     }
 }
 
