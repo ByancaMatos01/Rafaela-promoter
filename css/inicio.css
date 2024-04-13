@@ -294,21 +294,29 @@ margin-top: 45%;
 }
 
 .h2section-title {
-text-align: center;
-font-weight: bold;
-font-size: 25px;
-color:  #ff9aa2;
-margin-top: 25px;
-
+  text-align: center;
+  font-weight: bold;
+  font-size: 25px;
+  color:  #ff9aa2;
+  margin-top: 25px;
 }
 
 .section-subtitle{
-text-align: center;
-margin-bottom: 20px;
-font-weight: bold;
-font-size: 35px;
-color:  #37a4e2;
+  text-align: center;
+  margin-bottom: 20px;
+  font-weight: bold;
+  font-size: 35px;
+  color:  #37a4e2;
+}
 
+@media screen and (max-width: 991px) {
+  img#big-img{
+    max-width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  
 }
 
 
