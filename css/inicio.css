@@ -138,8 +138,9 @@ nav ul li.active a{
 
 
 .content .div-img img{
-  width: 20.625rem;
+  width: 15.625rem;
 }
+
 .content .small-img{
   position: absolute;
   left: 50%;
@@ -276,6 +277,7 @@ margin: 35% ;
 border: 10px;
 margin-top: 45%;
 }
+
 .grid-list ul  li a{
 display: flex;
 flex-wrap: wrap;
@@ -293,6 +295,7 @@ color:  #ff9aa2;
 margin-top: 25px;
 
 }
+
 .section-subtitle{
 text-align: center;
 margin-bottom: 20px;

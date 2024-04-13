@@ -109,9 +109,7 @@ nav .wrapper {
     border-radius: 3px;
 }
 
-#big-img{
-    
-}
+
 
 /* carousel */
 .carousel{
@@ -506,9 +504,9 @@ nav .wrapper {
         float: right;
     }
 
-    .div-img > img{
-        width: 50vw;
-    }
+    .content .div-img img{
+        width: 20%;
+      }
 }
 
 @media screen and (max-width: 991px){
@@ -522,9 +520,9 @@ nav .wrapper {
         font-size: 2em;
     }
 
-    .div-img > img{
-        width: 50vw;
-    }
+    .content .div-img img{
+        width: 20%;
+      }
 }
 
 /* Responsividade para dispositivos móveis */
@@ -562,9 +560,9 @@ nav .wrapper {
         float: right;
     }
 
-    .div-img > img{
-        width: 50vw;
-    }
+    .content .div-img img{
+        width: 20%;
+      }
 }
 /* Responsividade para dispositivos com tela muito pequena */
 @media screen and (max-width: 480px){
@@ -601,9 +599,9 @@ nav .wrapper {
         float: right;
     }
 
-    .div-img > img{
-        width: 50vw;
-    }
+    .content .div-img img{
+        width: 15%;
+      }
 }
 
 /* Se necessário, você pode adicionar mais regras de mídia para tamanhos de tela ainda menores */
@@ -643,9 +641,9 @@ nav .wrapper {
         float: right;
     }
 
-    .div-img > img{
-        width: 50vw;
-    }
+    .content .div-img img{
+        width: 20%;
+      }
 }
 /* Responsividade para telas extremamente pequenas, como smartphones em orientação retrato */
 @media screen and (max-width: 220px){
@@ -682,9 +680,9 @@ nav .wrapper {
         float: right;
     }
 
-    .div-img > img{
-        width: 50vw;
-    }
+    .content .div-img img{
+        width: 20%;
+      }
 }
 
 /* Se necessário, você pode adicionar mais regras de mídia para tamanhos de tela ainda menores */
