@@ -11,16 +11,20 @@ Desenvolvimento completo de um sistema (Modelagem + Programação + Banco de Dad
 # dia 3- Craiação do carrosel com os temas  09/04/2024
 * feito em html, CSS e Javascript
 # dia 4- Tela Inicial 10/04/2024
- * feito pequeno carrousel sobre exemplos de temas
- * sobre (apresenta erros)
- * contatos (apresenta erros
- * O projeto foi dividido em várias
+* feito pequeno carrousel sobre exemplos de temas
+* sobre (apresenta erros)
+* contatos (apresenta erros
+* O projeto foi dividido em várias
 # dia 5- Tela de login e cadastro  11/04/2024
- * login ( apresentou erros)
- * Arrumar as labels do login.
+* login ( apresentou erros)
+* Arrumar as labels do login.
 #  dia 6- Arrumando tela de Serviços 12/04/2024
-   * cores e funsos
-   * tentar colocar uma borda maior nos serviços.
+* cores e funsos
+* tentar colocar uma borda maior nos serviços.
+   # dia 7- Nav bar de inicio arruamda 13/04/2024
+* Nav fizado e com barra de trasnparencia 
+* Criara formúlarios cristina quer minha head :) 
+
    
 ## Autores
 - [@Byanca da Silva Monteiro de Matos](https://www.github.com/ByancaMatos01)
