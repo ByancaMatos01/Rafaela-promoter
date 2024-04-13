@@ -159,6 +159,8 @@ nav ul li.active a{
 /* Section Service */
 .section.service {
   background-color: #f8f8f8;
+  text-decoration: none;
+  list-style-type: none;
   padding: 80px 0;
   margin-top: 5%;
 }

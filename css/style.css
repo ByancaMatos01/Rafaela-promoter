@@ -454,6 +454,7 @@ nav .wrapper {
     transform: translate(-100%, -50%) rotate(90deg);
     filter: blur(130px);
 }
+
 @media screen and (max-width: 991px){
     /* ipad, tablets */
     .carousel .list .item{
