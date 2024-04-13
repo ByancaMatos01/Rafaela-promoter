@@ -138,18 +138,18 @@ nav ul li.active a{
 
 
 .content .div-img img{
-  width: 330px;
+  width: 20.625rem;
 }
 .content .small-img{
   position: absolute;
   left: 50%;
-  bottom: 70px;
+  bottom: 7.375rem;
   transform: translateX(-50%);
   display: flex;
   gap: 70px;
 }
 .content .small-img img{
-  width: 100px;
+  width: 6.25rem;
   cursor: pointer;
   transition: 0.4s;
 }
