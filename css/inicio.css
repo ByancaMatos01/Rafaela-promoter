@@ -69,7 +69,7 @@ nav ul li.active a{
   position: fixed; /* Adicionando posição fixa */
   top: 0; /* Fixando a barra no topo */
   width: 100%;
-  background-color: #fff; /* Adicionando um fundo branco para a barra */
+  background-color: #ffffff9a; /* Adicionando um fundo branco para a barra */
   z-index: 1000; /* Definindo um índice z alto para garantir que a barra esteja sempre acima de outros elementos */
 }
 
@@ -138,18 +138,18 @@ nav ul li.active a{
 
 
 .content .div-img img{
-  width: 350px;
+  width: 330px;
 }
 .content .small-img{
   position: absolute;
   left: 50%;
-  bottom: 20px;
+  bottom: 70px;
   transform: translateX(-50%);
   display: flex;
-  gap: 80px;
+  gap: 70px;
 }
 .content .small-img img{
-  width: 80px;
+  width: 100px;
   cursor: pointer;
   transition: 0.4s;
 }
