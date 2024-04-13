@@ -172,6 +172,10 @@ nav ul li.active a{
   margin-top: 5%;
 }
 
+.grid-list > li {
+  list-style: none;
+}
+
 .section-subtitle {
   color: #333;
   font-size: 18px;
@@ -192,6 +196,7 @@ nav ul li.active a{
   box-shadow: 0 0 1.25rem rgba(0, 0, 0, 0.1);
   margin: 1.25rem;
   padding: 1.875rem;
+  list-style: none;
   text-align: center;
 }
 
