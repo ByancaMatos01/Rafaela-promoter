@@ -135,8 +135,6 @@ nav ul li.active a{
   background-color: #79bccf;
 }
 
-
-
 .content .div-img img{
   width: 15.625rem;
 }
@@ -147,7 +145,7 @@ nav ul li.active a{
   bottom: 7.375rem;
   transform: translateX(-50%);
   display: flex;
-  gap: 70px;
+  gap: 4.375rem;
 }
 .content .small-img img{
   width: 6.25rem;

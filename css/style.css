@@ -680,9 +680,9 @@ nav .wrapper {
         float: right;
     }
 
-    .content .div-img img{
-        width: 20%;
-      }
+    .div-img > img{
+        width: 50vw;
+    }
 }
 
 /* Se necessário, você pode adicionar mais regras de mídia para tamanhos de tela ainda menores */
