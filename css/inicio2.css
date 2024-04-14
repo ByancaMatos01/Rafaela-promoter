@@ -502,6 +502,10 @@
     .content > .div-text > h3 {
       margin-top: 20%;
     }
+
+    .contact-info{
+      display: grid;
+    }
   }
   /* exclusão das imagens para mobile */
   @media screen and (max-width: 991px) {
