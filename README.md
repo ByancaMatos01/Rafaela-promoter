@@ -19,13 +19,14 @@ Desenvolvimento completo de um sistema (Modelagem + Programação + Banco de Dad
 * login ( apresentou erros)
 * Arrumar as labels do login.
 #  dia 6- Arrumando tela de Serviços 12/04/2024
-* cores e funsos
+* cores e fundos
 * tentar colocar uma borda maior nos serviços.
-   # dia 7- Nav bar de inicio arrumada 13/04/2024
+# dia 7- Nav bar de inicio arrumada 13/04/2024
 * Nav fizado e com barra de transparencia 
 * Criara formúlarios cristina quer minha head :)
 * Termino da pagina inicial
 * Criação de contact
+* Inclusão de Boostrap para auxiliar na estilização
 ## Autores
 - [@Byanca da Silva Monteiro de Matos](https://www.github.com/ByancaMatos01)
 - [@Ewelin Cristina Fernandes ](https://github.com/ewefernandes)
