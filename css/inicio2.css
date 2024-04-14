@@ -516,6 +516,10 @@
     .content > .div-text > h3 {
       margin-top: 25%;
     }
+
+    .contact-info{
+      display: grid;
+    }
   }
   
   
