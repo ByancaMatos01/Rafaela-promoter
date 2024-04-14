@@ -510,6 +510,11 @@
     .about-content{
       display: grid;
     }
+
+    .about-text{
+      width: 80%;
+    }
+    
   }
   /* exclusão das imagens para mobile */
   @media screen and (max-width: 991px) {
@@ -531,6 +536,10 @@
 
     .about-content{
       display: grid;
+    }
+
+    .about-text{
+      width: 80%;
     }
   }
   
