@@ -80,7 +80,7 @@
   }
   
   .contanier .content {
-    margin-top: -40px;
+    margin-top: -2.5rem;
   }
   
   .contanier .content{
@@ -124,7 +124,7 @@
     font-size: 14px;
     line-height: 1.8;
     letter-spacing: 1.3px;
-    margin-bottom: 55px;
+    margin-bottom: 3.4375rem;
   }
   .content .div-text .btn{
     padding: 15px 35px;
@@ -237,7 +237,7 @@
   
   .about .div-text h3 {
     text-transform: uppercase;
-    letter-spacing: 1.8px;
+    letter-spacing: 0.1125rem;
     font-size: 3.125rem;
     font-weight: normal;
     margin: 1.25rem 0 .5rem;
@@ -256,19 +256,19 @@
   
   .about .div-text p {
     font-size: 14px;
-    line-height: 1.8;
+    line-height: 1.8px;
     letter-spacing: 1.3px;
-    margin-bottom: 55px;
+    margin-bottom: 3.4375rem;
   }
   
   .about .div-text .btn {
-    padding: 15px 35px;
+    padding: 0.9375rem 2.1875rem;
     background-color: #fff;
     color: #79bccf;
     text-transform: uppercase;
     font-weight: bold;
     text-decoration: none;
-    border-radius: 30px;
+    border-radius: 1.875rem;
     transition: 0.3s;
   }
   
@@ -440,6 +440,7 @@
     text-decoration: none;
     border-radius: 10px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
     padding: 0 5%;
@@ -495,13 +496,7 @@
   
   /* responsividade */
   @media screen and (max-width: 768px) {
-    .content > .div-text > span {
-      margin-top: 20%;
-    }
 
-    .content > .div-text > h3 {
-      margin-top: 20%;
-    }
 
     .contact-info{
       display: grid;
@@ -524,10 +519,6 @@
   
     .small-img > img{
       max-width: 0%;
-    }
-  
-    .content > .div-text > h3 {
-      margin-top: 25%;
     }
 
     .contact-info{
