@@ -276,26 +276,25 @@ nav ul li.active a{
   background-color: #ff9aa2;
 }
 .section.service .container{
-width: 100%;
-height: calc(100vh - 95px);
-text-decoration: none;
-border-radius: 10px;
-display: flex;
-justify-content: space-between;
-align-items: center;
-padding: 0 5%;
-margin: 35% ;
-border: 10px;
-margin-top: 45%;
+  width: 100%;
+  height: calc(100vh - 95px);
+  text-decoration: none;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 5%;
+  margin: 35% ;
+  border: 10px;
+  margin-top: 45%;
 }
 
 .grid-list ul  li a{
   display: flex;
   flex-wrap: wrap;
+  text-align: justify;
   justify-content: center;
   text-decoration: none;
-  list-style-type: none;
-  text-align: justify;
 }
 
 .h2section-title {
