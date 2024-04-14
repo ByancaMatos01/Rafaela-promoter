@@ -114,13 +114,13 @@ nav .wrapper {
 /* carousel */
 .carousel{
     position: relative;
-    height: 800px;
+    height: 50rem;
     overflow: hidden;
     margin-top: -50px;
 }
 .carousel .list{
     position: absolute;
-    width: 1140px;
+    width: 71.25rem;
     max-width: 90%;
     height: 80%;
     left: 50%;
@@ -157,7 +157,7 @@ nav .wrapper {
 .carousel .list .item:nth-child(2) .introduce{
     opacity: 1;
     pointer-events: auto;
-    width: 400px;
+    width: 25rem;
     position: absolute;
     top: 50%;
     transform:  translateY(-50%);
@@ -346,7 +346,7 @@ nav .wrapper {
     margin-top: 20px;
 }
 .carousel.showDetail .list .item:nth-child(2) .detail .specifications div{
-    width: 90px;
+    width: 5.625rem;
     text-align: center;
     flex-shrink: 0;
 }
@@ -354,7 +354,7 @@ nav .wrapper {
     font-weight: bold;
 }
 .carousel.carousel.showDetail .list .item:nth-child(2) .checkout button{
-    font-family: Poppins;
+    font-family: 'Poppins';
     background-color: transparent;
     border: 1px solid rgba(0, 0, 0, 0.979);
     margin-left: 5px;
@@ -424,7 +424,7 @@ nav .wrapper {
     font-weight: bold;
     letter-spacing: 3px;
     background-color: transparent;
-    padding: 10px;
+    padding: 0.625rem;
     /* opacity: 0; */
     transition: opacity 0.5s;
     cursor: pointer;
@@ -471,8 +471,9 @@ nav .wrapper {
 }
 @media screen and (max-width: 767px){
     /* mobile */
+
     .carousel{
-        height: 600px;
+        height: 37.5rem;
     }
     .carousel .list .item{
         width: 100%;

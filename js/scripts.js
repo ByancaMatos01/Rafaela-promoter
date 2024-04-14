@@ -37,7 +37,7 @@ addEventOnElements(navTogglers, "click", toggleNavbar);
  * active header when window scroll down to 100px
  */
 
-const header = document.querySelector("[data-header]");
+const header = document.querySelector("#lista-navbar");
 
 window.addEventListener("scroll", function () {
   if (window.scrollY > 100) {
