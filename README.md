@@ -23,9 +23,9 @@ Desenvolvimento completo de um sistema (Modelagem + Programação + Banco de Dad
 * tentar colocar uma borda maior nos serviços.
    # dia 7- Nav bar de inicio arruamda 13/04/2024
 * Nav fizado e com barra de trasnparencia 
-* Criara formúlarios cristina quer minha head :) 
-
-   
+* Criara formúlarios cristina quer minha head :)
+* Termino da pagina inicial
+* Criação de contact
 ## Autores
 - [@Byanca da Silva Monteiro de Matos](https://www.github.com/ByancaMatos01)
 - [@Ewelin Cristina Fernandes ](https://github.com/ewefernandes)
