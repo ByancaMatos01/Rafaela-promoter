@@ -459,6 +459,18 @@
   .contact-item {
     margin: 0 20px;
     text-align: center;
+    color: #333;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  .contact-info{
+    display: flex;
+    margin-bottom: 20px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
   }
   
   .contact-item i {
@@ -469,7 +481,7 @@
   
   .contact-item p {
     font-size: 16px;
-    color: rgb(0, 0, 0);
+    color: rgba(0, 0, 0, 0.822);
   }
   footer {
     background: linear-gradient(130deg, #c4e1f8, #eeb0bd);
