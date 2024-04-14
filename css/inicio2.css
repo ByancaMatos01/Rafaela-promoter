@@ -506,6 +506,10 @@
     .contact-info{
       display: grid;
     }
+
+    .about-content{
+      display: grid;
+    }
   }
   /* exclusão das imagens para mobile */
   @media screen and (max-width: 991px) {
@@ -522,6 +526,10 @@
     }
 
     .contact-info{
+      display: grid;
+    }
+
+    .about-content{
       display: grid;
     }
   }
