@@ -512,9 +512,9 @@
     }
 
     .about-text{
-      width: 80%;
+      width: 100%;
     }
-    
+
   }
   /* exclusão das imagens para mobile */
   @media screen and (max-width: 991px) {
@@ -539,7 +539,7 @@
     }
 
     .about-text{
-      width: 80%;
+      width: 100%;
     }
   }
   
