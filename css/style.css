@@ -54,7 +54,7 @@ nav .wrapper {
     display: flex;
     align-items: center;
     justify-content: space-between;
-   }
+}
 .wrapper .logo a{
     color: #fff;
     text-decoration: none;
@@ -185,7 +185,7 @@ nav .wrapper {
     background-color: transparent;
     font-weight: bold;
     letter-spacing: 3px;
-    transition: background 0.5s;
+    transition: 0.5s;
 }
 .carousel .list .item .introduce .seeMore:hover{
     background: #eee;
