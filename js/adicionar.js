@@ -14,8 +14,13 @@ document.addEventListener('DOMContentLoaded', function() {
             // Cria uma nova linha na tabela de carrinho
             const newRow = document.createElement('tr');
             newRow.innerHTML = `
-                <td>${titulo}</td>
-                <td>1</td> <!-- Por padrão, adicionamos quantidade 1 -->
+                <tr data-id="1">
+                    <td>${titulo}</td>
+                    <td>1</td> <!-- Por padrão, adicionamos quantidade 1 -->
+                    <td>
+                        <button class="btn-excluir">Excluir</button>
+                    </td>
+                </tr>
             `;
             
             // Seleciona a tabela de carrinho
