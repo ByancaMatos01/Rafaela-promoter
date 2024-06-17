@@ -457,6 +457,46 @@ nav .wrapper {
     filter: blur(130px);
 }
 
+/* Estilos para a tabela de carrinho */
+#carrinho {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+#carrinho th, #carrinho td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+#carrinho th {
+    background-color: #f2f2f2;
+}
+
+#carrinho tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#carrinho tbody tr:hover {
+    background-color: #ddd;
+}
+
+/* Estilos para botões na tabela */
+#carrinho button {
+    padding: 5px 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+#carrinho button:hover {
+    background-color: #45a049;
+}
+
+
 @media screen and (max-width: 991px){
     /* ipad, tablets */
     .carousel .list .item{

@@ -32,6 +32,19 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 });
 
+// Script para exclusão de itens do carrinho
+document.addEventListener('DOMContentLoaded', function() {
+    const btnExcluir = document.querySelectorAll('.btn-excluir');
+
+    btnExcluir.forEach(btn => {
+        btn.addEventListener('click', function() {
+            const tr = this.closest('tr'); // Encontra o elemento <tr> mais próximo
+            tr.remove(); // Remove o elemento <tr> do DOM
+        });
+    });
+});
+
+
 
 
 
