@@ -13,7 +13,7 @@ Desenvolvimento completo de um sistema (Modelagem + Programação + Banco de Dad
 # dia 4- Tela Inicial 10/04/2024
 * feito pequeno carrousel sobre exemplos de temas
 * sobre (apresenta erros)
-* contatos (apresenta erros
+* contatos (apresenta erros)
 * O projeto foi dividido em várias
 # dia 5- Tela de login e cadastro  11/04/2024
 * login ( apresentou erros)
@@ -37,6 +37,6 @@ Desenvolvimento completo de um sistema (Modelagem + Programação + Banco de Dad
 * Mary Full stack (Lider)
 * Bya Full stack (co-Lider)
 * Thais backend/ analista
-* Ewe Front end/ engenheira de requistos
-* Lais engenheira de requistos/ backend
+* Ewe Front end/ engenheira de requisitos
+* Lais engenheira de requisitos/ backend
 
