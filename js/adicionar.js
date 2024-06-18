@@ -63,23 +63,18 @@ document.addEventListener('DOMContentLoaded', function () {
 
 
 
-// Seleciona todos os botões "Ver itens"
-const verItensButtons = document.querySelectorAll('.verItens');
+document.addEventListener('DOMContentLoaded', function () {
+    const verItensButtons = document.querySelectorAll('.verItens');
 
-verItensButtons.forEach(button => {
-    button.addEventListener('click', function () {
-        // Encontra o item pai mais próximo para obter a seção de detalhes
-        const item = this.closest('.item');
+    verItensButtons.forEach(button => {
+        button.addEventListener('click', function () {
+            const tabelaCarrinho = document.querySelector('#carrinho');
 
-        // Mostra a seção de detalhes específica para este item
-        const detailSection = item.querySelector('.detail');
-        detailSection.style.display = 'block';
-
-        // Oculta os outros detalhes dos itens
-        const allDetails = document.querySelectorAll('.detail');
-        allDetails.forEach(detail => {
-            if (detail !== detailSection) {
-                detail.style.display = 'none';
+            // Verifica o estado atual de exibição da tabela de carrinho
+            if (tabelaCarrinho.style.display === 'none') {
+                tabelaCarrinho.style.display = 'table'; // Mostra se estiver oculta
+            } else {
+                tabelaCarrinho.style.display = 'none'; // Oculta se estiver visível
             }
         });
     });

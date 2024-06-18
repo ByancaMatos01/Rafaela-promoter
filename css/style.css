@@ -462,6 +462,16 @@ nav .wrapper {
     width: 100%;
     margin-top: 20px;
     border-collapse: collapse;
+    display: none;
+    position: relative;
+    background-color: white;
+    border: 1px solid black;
+    padding: 10px;
+    z-index: 1000;
+}
+
+#carrinho th {
+    padding-right: 20px; /* Aumenta o espaçamento à direita */
 }
 
 #carrinho th, #carrinho td {
@@ -494,17 +504,15 @@ nav .wrapper {
 }
 
 #carrinho button:hover {
-    background-color: #cf0c0c;
+    background-color: #cf0c0c; 
 }
 
 #carrinho th, #carrinho td {
     padding: 8px;
     text-align: left;
     border-bottom: 1px solid #ddd;
-    font-size: 24px; /* Definindo o tamanho da fonte para 16px */
+    font-size: 24px; /* Definindo o tamanho da fonte para 24px */
 }
-
-
 
 @media screen and (max-width: 991px){
     /* ipad, tablets */
