@@ -484,17 +484,26 @@ nav .wrapper {
 
 /* Estilos para botões na tabela */
 #carrinho button {
-    padding: 5px 10px;
-    background-color: #4CAF50;
+    padding: 10px 24px;
+    background-color: #d16464;
     color: white;
     border: none;
     cursor: pointer;
-    border-radius: 3px;
+    border-radius: 8px;
+    font-size: 24px;
 }
 
 #carrinho button:hover {
-    background-color: #45a049;
+    background-color: #cf0c0c;
 }
+
+#carrinho th, #carrinho td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    font-size: 24px; /* Definindo o tamanho da fonte para 16px */
+}
+
 
 
 @media screen and (max-width: 991px){
