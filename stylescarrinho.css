@@ -10,7 +10,7 @@ body {
 }
 
 body > header {
-  background: #111;
+  background: rgba(89, 147, 255, 0.685);
   color: white;
   font-size: 24px;
   padding: 20px 0;

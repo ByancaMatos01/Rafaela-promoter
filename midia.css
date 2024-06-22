@@ -1,0 +1,103 @@
+/* Para telas menores, como tablets */
+@media screen and (max-width: 768px) {
+    /* Ajusta a margem interna do wrapper para um espaço mais adequado */
+    nav .wrapper {
+        padding: 0 15px;
+    }
+
+    /* Reduz o tamanho da fonte do logotipo */
+    .wrapper .logo a {
+        font-size: 24px;
+    }
+
+    /* Reduz o tamanho da fonte dos links de navegação */
+    .navlink li a {
+        font-size: 16px;
+    }
+
+    /* Ajusta a largura do menu dropdown para um tamanho adequado */
+    .navlink .drop-menu {
+        width: 150px;
+    }
+
+    /* Ajustes no carrossel para melhor visualização em tablets */
+    .carousel {
+        padding: 0 10px;
+    }
+
+    /* Reduz o tamanho das imagens dentro dos itens do carrossel */
+    .item img {
+        max-width: 100%;
+    }
+
+    /* Ajustes na disposição do conteúdo de introdução e detalhes */
+    .introduce, .detail {
+        text-align: center;
+        padding: 10px;
+    }
+
+    /* Ajusta o botão do carrossel */
+    .arrows button {
+        font-size: 18px;
+        padding: 5px 10px;
+    }
+}
+
+/* Para telas menores, como smartphones */
+@media screen and (max-width: 480px) {
+    /* Ajusta a margem interna do wrapper para um espaço mais adequado em smartphones */
+    nav .wrapper {
+        padding: 0 10px;
+    }
+
+    /* Reduz o tamanho da fonte do logotipo */
+    .wrapper .logo a {
+        font-size: 20px;
+    }
+
+    /* Reduz o tamanho da fonte dos links de navegação e ajusta o espaçamento */
+    .navlink li a {
+        font-size: 14px;
+        padding: 8px 12px;
+    }
+
+    /* Ajusta a largura do menu dropdown */
+    .navlink .drop-menu {
+        width: 130px;
+    }
+
+    /* Centraliza o conteúdo de introdução e detalhes para melhor visualização */
+    .introduce, .detail {
+        text-align: center;
+        padding: 8px;
+    }
+
+    /* Ajusta o tamanho e espaçamento dos botões do carrossel */
+    .arrows button {
+        font-size: 16px;
+        padding: 4px 8px;
+    }
+
+    /* Ajusta o layout da tabela do carrinho para melhor visualização em telas pequenas */
+    #carrinho {
+        width: 100%;
+        font-size: 12px;
+    }
+
+    #carrinho thead {
+        display: none;
+    }
+
+    #carrinho tbody tr {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    #carrinho tbody tr td {
+        display: block;
+        width: 100%;
+        text-align: left;
+    }
+}
+
+/* Para telas com largura mínima de 1024px */
