@@ -63,18 +63,21 @@ function voltaEstado() {
 
 document.addEventListener('DOMContentLoaded', function() {
    
-    const confirmar = document.querySelector('.btn-confirmar');
+    const confirmar = document.querySelectorAll('.btn-confirmar');
 
-    if (confirmar) {
-        confirmar.addEventListener('click', finalizarCompra);
-    } else {
+    if (confirmar.length > 0) {
+        confirmar.forEach(function(element) {
+            element.addEventListener('click', finalizarCompra);
+        });} else {
         console.error('Botão .btn-confirmar não encontrado.');
     }
 
-    const voltar = document.querySelector('btn-voltar');
+    const voltar = document.querySelectorAll('.btn-voltar');
 
-    if (voltar) {
-        confirmar.addEventListener('click', voltaEstado);
+    if (voltar.length > 0) {
+        voltar.forEach(function(element) {
+            element.addEventListener('click', voltaEstado);
+        });
     } else {
         console.error('Botão .btn-confirmar não encontrado.');
     }
